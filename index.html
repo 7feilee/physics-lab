@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Physica — Interactive Physics, High School to the Frontier</title>
+  <meta name="description" content="Physica is a free, open interactive physics learning platform. Learn physics in English from high-school mechanics through quantum field theory to the research frontier, with live simulations you can play with." />
+  <meta name="theme-color" content="#0b0e16" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Physica — Interactive Physics" />
+  <meta property="og:description" content="Learn physics from high school to the research frontier with live, interactive simulations." />
+  <meta property="og:type" content="website" />
+
+  <!-- KaTeX for math -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
+
+  <!-- marked for markdown -->
+  <script defer src="https://cdn.jsdelivr.net/npm/marked@12.0.0/marked.min.js"></script>
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lora:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+<body data-theme="dark">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="topbar">
+    <button class="icon-btn menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+      <svg viewBox="0 0 24 24" width="22" height="22"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <a class="brand" href="#/">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 40 40" width="28" height="28">
+          <ellipse cx="20" cy="20" rx="17" ry="6.5" fill="none" stroke="currentColor" stroke-width="1.6" transform="rotate(0 20 20)"/>
+          <ellipse cx="20" cy="20" rx="17" ry="6.5" fill="none" stroke="currentColor" stroke-width="1.6" transform="rotate(60 20 20)"/>
+          <ellipse cx="20" cy="20" rx="17" ry="6.5" fill="none" stroke="currentColor" stroke-width="1.6" transform="rotate(120 20 20)"/>
+          <circle cx="20" cy="20" r="3.2" fill="currentColor"/>
+        </svg>
+      </span>
+      <span class="brand-text">Physica</span>
+    </a>
+
+    <div class="search-wrap">
+      <input id="search" type="search" placeholder="Search lessons, topics, equations…" autocomplete="off" aria-label="Search" />
+      <div id="searchResults" class="search-results" hidden></div>
+    </div>
+
+    <div class="topbar-actions">
+      <a class="icon-btn" id="randomBtn" title="Random lesson" aria-label="Random lesson">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 3h5v5M21 3l-7 7M8 21H3v-5M3 21l7-7M21 16v5h-5M14 14l7 7M3 8V3h5M10 10 3 3"/></svg>
+      </a>
+      <button class="icon-btn" id="themeToggle" title="Toggle light / dark" aria-label="Toggle theme">
+        <svg class="ico-moon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        <svg class="ico-sun" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5 19 19M19 5l-1.5 1.5M6.5 17.5 5 19"/></svg>
+      </button>
+      <a class="icon-btn" href="https://github.com/7feilee/physics-lab" target="_blank" rel="noopener" title="Source on GitHub" aria-label="GitHub">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.2.8-.5v-2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.8 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17 4.6 18 4.9 18 4.9c.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.5-2.7 5.5-5.3 5.8.4.4.8 1.1.8 2.2v3.3c0 .3.2.6.8.5 4.6-1.5 7.9-5.8 7.9-10.9C23.5 5.7 18.3.5 12 .5z"/></svg>
+      </a>
+    </div>
+  </header>
+
+  <div class="layout">
+    <nav class="sidebar" id="sidebar" aria-label="Curriculum">
+      <div class="sidebar-inner" id="sidebarInner"><!-- built by app.js --></div>
+    </nav>
+    <div class="sidebar-scrim" id="scrim"></div>
+
+    <main class="content" id="main" tabindex="-1">
+      <div id="view" class="view"><!-- rendered route --></div>
+      <footer class="page-foot">
+        <div class="prevnext" id="prevnext"></div>
+        <p class="foot-meta">Physica · open-source interactive physics · built for curious minds · <a href="https://github.com/7feilee/physics-lab">contribute on GitHub</a></p>
+      </footer>
+    </main>
+  </div>
+
+  <div id="progressToast" class="toast" hidden></div>
+
+  <script src="assets/js/curriculum.js"></script>
+  <script src="assets/js/quizzes.js"></script>
+  <script src="assets/js/sims/registry.js"></script>
+  <script src="assets/js/sims/mechanics.js"></script>
+  <script src="assets/js/sims/waves-em.js"></script>
+  <script src="assets/js/sims/modern.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

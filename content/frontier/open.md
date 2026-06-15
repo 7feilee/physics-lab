@@ -1,0 +1,51 @@
+The Standard Model of particle physics and Einstein's general relativity are, between them, the most precisely tested theories ever devised. Together they account for every experiment ever performed in a laboratory, every particle ever detected, every orbit ever measured. And yet physics is not finished — not remotely. We can write down honest, specific questions that our best theories *cannot* answer, observations they *cannot* explain, and tensions inside them that *demand* something new. This final lesson surveys the great open problems: the dark stuff that dominates the cosmos, the suspicious fine-tunings that hint at missing principles, the imbalance that let matter survive at all, the riddle of measurement at the quantum core, and the technological holy grail of room-temperature superconductivity. Then we step back to ask the meta-question — what might "new physics" even look like? — and end where physics always points: forward.
+
+## Dark matter and dark energy: 95% is missing
+
+The most humbling fact in modern science is that everything we understand — every atom, star, planet, and person — makes up only about **5%** of the universe. The rest is two mysteries.
+
+**Dark matter**, roughly **27%**, is matter that gravitates but does not shine. We infer it from galaxies that rotate too fast to hold together on their visible mass alone, from the way galaxy clusters bend light, and from the precise pattern of fluctuations in the cosmic microwave background. The evidence that *something* with mass is there is overwhelming and comes from many independent directions. But every attempt to catch a dark-matter particle directly — underground detectors, collider searches, astrophysical hunts — has so far come up empty, ruling out the most favored candidates and deepening the puzzle. We know dark matter is there; we do not know what it is.
+
+**Dark energy**, roughly **68%**, is stranger still. In 1998 two teams found that the expansion of the universe is *accelerating*, as if space is filled with a uniform energy that pushes outward — a discovery that won the 2011 Nobel Prize. We describe it with a **cosmological constant** $\Lambda$ in Einstein's equations, but describing is not understanding. What dark energy *is*, why it has the tiny value it does, and whether it is truly constant remain wide open. Recent survey data even hint, controversially, that it may be *changing* over cosmic time — which, if confirmed, would be a revolution.
+
+:::key The cosmic inventory
+The accounting is stark: about **5%** ordinary matter, **27%** dark matter, **68%** dark energy. Ninety-five percent of the universe is made of things for which we have no fundamental theory — only names. This is not a footnote or a small correction. It means our well-tested physics describes a thin film of cream on an ocean we cannot yet see into.
+:::
+
+## The fine-tuning problems
+
+Some open problems are not missing observations but uncomfortable *numbers* — quantities that, within our theories, seem to require absurdly delicate adjustment.
+
+The **cosmological-constant problem** is the worst discrepancy in all of physics. Quantum field theory predicts that empty space should seethe with vacuum energy, and a naive estimate of its value exceeds the observed dark-energy density by a factor of around $10^{120}$. To get the tiny number we measure, the enormous theoretical contributions must cancel to one part in $10^{120}$. No known principle enforces that cancellation. Something fundamental about the vacuum is missing.
+
+The **hierarchy problem** asks why gravity is so absurdly feeble compared to the other forces — equivalently, why the Higgs boson is as light as it is. Quantum corrections should drag the Higgs mass up toward the Planck scale, $10^{16}$ times heavier than observed, unless unrelated huge contributions again cancel with extraordinary precision. **Supersymmetry** was the favored cure, predicting partner particles to do the cancelling naturally — but the Large Hadron Collider has not found them in the expected range, leaving the problem sharp and the leading solution in question.
+
+:::warn Is fine-tuning a problem, or just a fact?
+Fine-tuning arguments rest on an aesthetic judgment — that "natural" theories shouldn't require precise cancellations — and that judgment is not a law of nature. Maybe the constants just *are* what they are. Some invoke the **multiverse**: if vast numbers of universes exist with different constants, we necessarily find ourselves in one whose values permit observers (the *anthropic* argument). That idea is genuinely controversial — critics charge it is unfalsifiable and explains too easily. Whether fine-tuning signals deep missing physics or merely our taste for tidiness is itself an open question. Hold it honestly.
+:::
+
+## Where did the antimatter go?
+
+The Big Bang should have made matter and antimatter in equal amounts, and they should have annihilated completely, leaving a universe of nothing but light. Instead we exist. A tiny asymmetry — about one extra matter particle per billion matter–antimatter pairs — survived, and we and everything we see are made of that leftover billionth. What produced the imbalance? The conditions required (collectively, the Sakharov conditions, including a violation of matter–antimatter symmetry) are partly present in the Standard Model, but the effect it provides is far too small. The origin of the **matter–antimatter asymmetry** is unexplained, and it is a strong hint of physics beyond the Standard Model, perhaps involving the neutrinos.
+
+## The measurement problem and quantum gravity
+
+Two of the deepest open problems are conceptual fractures in our most fundamental frameworks.
+
+The **measurement problem** sits at the heart of quantum mechanics. The Schrödinger equation evolves states smoothly and deterministically into superpositions; yet measurement yields a single definite outcome, with the others vanishing. *What constitutes a measurement, and how does one outcome get selected?* The mathematics is unambiguous and works perfectly; its *meaning* is not settled. Interpretations abound — many-worlds, where every outcome happens in branching realities; objective-collapse models that modify the equation and could be tested; pilot-wave theories with hidden but real trajectories. They make (mostly) identical predictions, so a century on we cannot say which, if any, is right. We use quantum mechanics flawlessly without agreeing on what it tells us about reality.
+
+And looming over everything is **quantum gravity** — the unfinished marriage of general relativity and quantum mechanics, the failure to describe what happens at the center of a black hole or the first instant of the Big Bang. It is the single problem whose solution would most reshape physics, and the one with the least experimental guidance, since its natural scale lies fifteen orders of magnitude beyond our most powerful colliders.
+
+## Room-temperature superconductivity
+
+Not every frontier is cosmic; some are tantalizingly practical. **Superconductors** carry electric current with exactly zero resistance, but only when cooled to extreme cold, which makes them costly and rare. A material that superconducts at *room temperature and ordinary pressure* would transform civilization: lossless power grids, effortless magnetic levitation, cheap MRI machines, more efficient everything. Hydrogen-rich materials under crushing pressures have pushed the record temperature dramatically upward, and the dream feels closer than ever — but the field has also been burned by retracted and irreproducible claims, so skepticism is warranted. Whether a practical room-temperature superconductor is achievable, and what theory governs these high-temperature materials (the mechanism behind the cuprate superconductors is *itself* a famous unsolved problem), remain genuinely open.
+
+## What might "new physics" look like?
+
+History offers a pattern. Revolutions in physics rarely come from finding a predicted thing in a predicted place. They come from a small, stubborn **discrepancy** that refuses to go away — the tiny precession of Mercury that broke Newtonian gravity, the ultraviolet catastrophe and the photoelectric effect that broke classical light, the missing speed of light's variation that birthed relativity. The next revolution may already be hiding in an anomaly we currently dismiss: a muon's magnetic moment off by a hair from prediction, a flicker of tension in how fast the universe expands (the "Hubble tension"), a hint that dark energy evolves. Or it may wait for an instrument not yet built — a more sensitive detector, a more powerful collider, a gravitational-wave observatory peering back to the Big Bang.
+
+:::deep The shape of the unknown
+We cannot know in advance whether the next great theory will be a deeper unification (all forces, including gravity, as facets of one structure), a wholesale reconception (spacetime emergent from something more primitive, as holography suggests), or something we presently lack the concepts even to imagine — just as no nineteenth-century physicist could have *wanted* quantum mechanics before nature forced it on them. The most exciting possibility is precisely the one we cannot foresee. Genuine new physics tends to be not a better answer to our questions, but a revelation that we were asking the wrong ones.
+:::
+
+So we end where physics perpetually stands: at the edge of the known, looking out. Ninety-five percent of the universe is unidentified. Our two best theories cannot be spoken in the same breath without contradiction. The vacuum's energy is wrong by $10^{120}$, matter exists for reasons we cannot fully name, and we do not agree on what a measurement *is*. To a casual eye this might read as failure. To a physicist it is the opposite — it is the map of everything left to discover, drawn in sharp, specific, answerable-looking questions. Every one of these problems is a door. Some will open onto modest refinements; at least one, history all but promises, opens onto a new picture of reality as different from today's as relativity was from Newton. The privilege of doing physics now is to live in a moment when the deepest questions are not only unanswered but, finally, *askable*. The frontier is open. Go.
