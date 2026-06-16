@@ -310,4 +310,203 @@ window.QUIZZES = {
       },
     ],
   },
+  "astro-radiation": {
+    title: "Check yourself: Starlight",
+    questions: [
+      {
+        q: "One star glows blue-white, another deep red. Which is hotter?",
+        options: ["The red one", "The blue-white one", "They're the same", "Colour says nothing about temperature"],
+        answer: 1,
+        explain: "Wien's law: hotter bodies peak at shorter (bluer) wavelengths. Blue-white stars can exceed 10,000 K; red ones are around 3,000 K.",
+      },
+      {
+        q: "Doubling a star's surface temperature multiplies the power it radiates per unit area by…",
+        options: ["2", "4", "8", "16"],
+        answer: 3,
+        explain: "The Stefan–Boltzmann law says radiated power per area ∝ $T^4$, so $2^4 = 16$.",
+      },
+      {
+        q: "The dark absorption lines in a star's spectrum reveal mainly its…",
+        options: ["distance", "chemical composition", "age in years", "rotation direction"],
+        answer: 1,
+        explain: "Each element absorbs at signature wavelengths. Those missing slivers of colour are a fingerprint of what the star is made of — spectroscopy is how we know the composition of things we can never touch.",
+      },
+    ],
+  },
+  "astro-expansion": {
+    title: "Check yourself: The Expanding Universe",
+    questions: [
+      {
+        q: "Galaxy B is twice as far from us as galaxy A. According to Hubble's law, B recedes…",
+        options: ["at the same speed as A", "twice as fast as A", "half as fast as A", "four times as fast as A"],
+        answer: 1,
+        explain: "Hubble's law is $v = H_0 d$: recession speed is proportional to distance. Twice the distance, twice the speed.",
+      },
+      {
+        q: "Cosmological redshift happens because…",
+        options: ["galaxies move through space like fired bullets", "space itself stretches, stretching the light's wavelength with it", "light gets tired over long distances", "our galaxy is at the centre"],
+        answer: 1,
+        explain: "It isn't ordinary motion-through-space Doppler shift — the fabric of space expands, lengthening the wavelength of light in transit. And every observer sees the same thing; there is no centre.",
+      },
+    ],
+  },
+  "astro-darkmatter": {
+    title: "Check yourself: Dark Matter",
+    questions: [
+      {
+        q: "Stars at a galaxy's edge orbit far faster than its visible mass can explain. The leading explanation is…",
+        options: ["the stars are about to fly off", "a halo of unseen 'dark' matter adds gravity", "Newton's law of gravity is simply wrong everywhere", "the stars are much heavier than they look"],
+        answer: 1,
+        explain: "Flat rotation curves imply much more mass than we see in stars and gas — an extended dark-matter halo. (Modified-gravity alternatives exist but fit the full range of evidence less well.)",
+      },
+      {
+        q: "Dark matter is called 'dark' because it…",
+        options: ["is black in colour", "neither emits nor absorbs light, betraying itself only by gravity", "exists only at night", "absorbs all light that hits it"],
+        answer: 1,
+        explain: "It doesn't interact with light at all as far as we can tell — we map it purely through its gravitational pull on stars, gas and bent light.",
+      },
+    ],
+  },
+  "app-radioactivity": {
+    title: "Check yourself: Radioactivity",
+    questions: [
+      {
+        q: "After exactly 3 half-lives, the fraction of the original nuclei still undecayed is…",
+        options: ["1/3", "1/6", "1/8", "zero"],
+        answer: 2,
+        explain: "Each half-life halves the survivors: $\\tfrac12 \\to \\tfrac14 \\to \\tfrac18$.",
+      },
+      {
+        q: "Whether one particular nucleus decays in the next second is…",
+        options: ["fixed by its age", "fundamentally random, with a constant probability per second", "decided by temperature", "predictable if we measure carefully enough"],
+        answer: 1,
+        explain: "Individual decays are genuinely probabilistic — a nucleus doesn't 'age'. Yet across trillions of nuclei the law of large numbers makes the half-life razor-sharp.",
+      },
+    ],
+  },
+  "app-lasers": {
+    title: "Check yourself: Lasers",
+    questions: [
+      {
+        q: "Compared with a light bulb, what makes laser light special is that it is…",
+        options: ["brighter", "coherent — one wavelength, marching in phase", "hotter", "made of faster photons"],
+        answer: 1,
+        explain: "LASER = Light Amplification by Stimulated Emission of Radiation. The output is coherent (one colour, one phase, one direction), which is why it stays a tight beam.",
+      },
+      {
+        q: "To amplify light you first need a population inversion, meaning…",
+        options: ["more atoms in the ground state than excited", "more atoms excited than in the ground state", "all atoms in the ground state", "the atoms moving very fast"],
+        answer: 1,
+        explain: "Normally most atoms sit in the ground state and absorb light. Pump enough of them up so the excited population dominates, and a passing photon triggers more emission than absorption — net gain.",
+      },
+      {
+        q: "In stimulated emission, the newly emitted photon is…",
+        options: ["random in direction and phase", "an identical twin of the photon that triggered it", "always lower energy", "absorbed immediately"],
+        answer: 1,
+        explain: "The stimulated photon copies the triggering photon's direction, phase and wavelength exactly — that cloning is what builds coherence.",
+      },
+    ],
+  },
+  "app-fission-fusion": {
+    title: "Check yourself: Nuclear Energy",
+    questions: [
+      {
+        q: "Both fission of heavy nuclei and fusion of light nuclei release energy because both move nuclei toward…",
+        options: ["lower binding energy per nucleon", "higher binding energy per nucleon (the iron peak)", "more protons", "a larger size"],
+        answer: 1,
+        explain: "The binding-energy-per-nucleon curve peaks near iron. Splitting very heavy nuclei or fusing very light ones both climb toward that peak, releasing the difference as energy.",
+      },
+      {
+        q: "The Sun's energy comes from…",
+        options: ["burning hydrogen gas chemically", "fusing hydrogen into helium", "splitting uranium", "gravitational collapse alone"],
+        answer: 1,
+        explain: "In the core, hydrogen nuclei fuse to helium, converting a tiny fraction of mass to energy via $E = mc^2$ — about 4 million tonnes of mass per second.",
+      },
+    ],
+  },
+  "inv-playbook": {
+    title: "Check yourself: Innovation",
+    questions: [
+      {
+        q: "The recurring top-down pattern of physics-driven invention is: find a controllable physical effect, then…",
+        options: ["publish and stop", "engineer it into a device and scale it up", "patent the equation", "wait for someone else"],
+        answer: 1,
+        explain: "Innovation turns a reliable, controllable effect (stimulated emission, the transistor effect, nuclear magnetic resonance) into an engineered, manufacturable, scalable device.",
+      },
+      {
+        q: "A striking lesson from the laser, transistor and GPS is that many world-changing technologies began as…",
+        options: ["targeted product development", "curiosity-driven basic research with no application in mind", "military secrets", "accidents no one understood"],
+        answer: 1,
+        explain: "Einstein's 1917 paper on stimulated emission, quantum theory of solids, and relativity were all 'useless' when discovered. Basic research is the seed corn of future industries.",
+      },
+    ],
+  },
+  "inv-gps": {
+    title: "Check yourself: GPS & Relativity",
+    questions: [
+      {
+        q: "GPS satellite clocks, after combining special and general relativity, run __ relative to clocks on the ground.",
+        options: ["slower", "faster", "at exactly the same rate", "randomly"],
+        answer: 1,
+        explain: "Velocity time-dilation slows them (~7 µs/day) but weaker gravity high up speeds them more (~45 µs/day). The net ~38 µs/day means orbiting clocks tick faster — and it must be corrected.",
+      },
+      {
+        q: "If GPS ignored relativity entirely, position errors would accumulate at roughly…",
+        options: ["a few millimetres per year", "a centimetre per day", "several kilometres per day", "no error at all"],
+        answer: 2,
+        explain: "An uncorrected ~38 µs/day timing drift corresponds to about 10 km/day of position error — GPS would be useless within minutes. Relativity is load-bearing infrastructure.",
+      },
+    ],
+  },
+  "disc-playbook": {
+    title: "Check yourself: Finding New Physics",
+    questions: [
+      {
+        q: "In the discovery method, a small but rock-solid disagreement between a precise measurement and theory is…",
+        options: ["noise to be ignored", "a clue worth chasing — possibly a door to new physics", "always an instrument error", "proof the measurement is wrong"],
+        answer: 1,
+        explain: "Mercury's 43″/century, the muon's anomalous moment, galaxy rotation — revolutions hide in stubborn small discrepancies that survive every attempt to explain them away mundanely.",
+      },
+      {
+        q: "Any successful new theory must, in the regime where the old theory already worked,…",
+        options: ["contradict it completely", "reproduce its successful predictions", "ignore it", "be untestable"],
+        answer: 1,
+        explain: "The correspondence principle: relativity reduces to Newton at low speed, quantum mechanics to classical for big systems. New physics extends the old, it doesn't erase its proven wins.",
+      },
+    ],
+  },
+  "disc-blackbody": {
+    title: "Check yourself: The UV Catastrophe",
+    questions: [
+      {
+        q: "Classical physics predicted that a hot body should radiate…",
+        options: ["no energy at all", "infinite energy at short (ultraviolet) wavelengths", "only red light", "energy only when touched"],
+        answer: 1,
+        explain: "Treating each mode as an equally-shared classical oscillator (Rayleigh–Jeans) makes the predicted intensity blow up as wavelength shrinks — the absurd 'ultraviolet catastrophe'.",
+      },
+      {
+        q: "Planck fixed it by assuming the oscillators could only exchange energy…",
+        options: ["continuously", "in discrete lumps, $E = hf$", "very slowly", "as heat only"],
+        answer: 1,
+        explain: "Quantising energy in packets $E = hf$ suppresses the high-frequency modes (they cost too much), bending the curve back down. It was a desperate trick — and the birth of quantum theory.",
+      },
+    ],
+  },
+  "disc-mercury": {
+    title: "Check yourself: Mercury's Wobble",
+    questions: [
+      {
+        q: "Mercury's orbit precesses 43 arcseconds per century more than Newton predicts. The correct explanation turned out to be…",
+        options: ["an undiscovered planet 'Vulcan'", "general relativity — curved spacetime near the Sun", "errors in the telescopes", "the influence of the Moon"],
+        answer: 1,
+        explain: "Astronomers first hunted for a hidden planet. There was none — Einstein's curved spacetime predicted exactly 43″/century, one of general relativity's first triumphs.",
+      },
+      {
+        q: "The Mercury story shows that when an anomaly appears, you should first…",
+        options: ["immediately invent new physics", "exhaust conventional explanations, and only then conclude the theory itself must change", "ignore it", "change the data"],
+        answer: 1,
+        explain: "The same anomaly (an orbital wobble) was once solved by predicting Neptune, and once by overturning gravity itself. Discipline is knowing which kind you're facing — rule out the mundane first.",
+      },
+    ],
+  },
 };

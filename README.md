@@ -9,13 +9,18 @@ short conceptual quizzes.
 
 ## What's inside
 
-- **5 tracks · 40 lessons · ~56,000 words**, climbing one ladder:
+- **9 tracks · 70 lessons · ~95,000 words**, spanning all of physics:
   1. **High School** — motion, forces, energy, waves, electricity, light, first quantum ideas
   2. **Undergraduate** — Lagrangian/Hamiltonian mechanics, Maxwell, thermodynamics & stat-mech, quantum mechanics, special relativity
   3. **Graduate & Research** — QFT, general relativity, the renormalization group, band theory, the Standard Model
-  4. **Frontier & New Fields** — quantum information, quantum gravity & holography, topological matter, the physics of complexity & life, open problems
-  5. **The Physicist's Toolkit** — how to think like a physicist, dimensional analysis & Fermi estimation, a map of the mathematics
-- **15 hand-built, real-physics simulations** running on `<canvas>` at 60 fps: projectile motion, collisions, pendulum, orbits, the chaotic double pendulum, an ideal gas, EM & sound waves, electric fields, the double slit, quantum wave-packets, particle-in-a-box, tunnelling, special relativity, the Ising model, and the Bloch sphere.
+  4. **Astrophysics & Cosmology** — starlight & spectra, stellar structure & death, the Big Bang & CMB, dark matter, dark energy
+  5. **Nuclear, Atomic & Applied** — binding energy, radioactivity, fission & fusion, spectra, lasers, ultracold atoms, fluids, plasma, continuum mechanics
+  6. **Frontier & New Fields** — quantum information, quantum gravity & holography, topological matter, the physics of complexity & life, open problems
+  7. **Physics → Innovation** *(top-down)* — the method, then the laser, transistor, GPS, MRI, solar/LEDs and quantum tech
+  8. **Discovering New Physics** *(bottom-up)* — the method, then the UV catastrophe, Mercury, Michelson–Morley, dark matter, neutrino mass and today's live anomalies
+  9. **The Physicist's Toolkit** — how to think like a physicist, dimensional analysis & Fermi estimation, a map of the mathematics
+- **21 hand-built, real-physics simulations** running on `<canvas>` at 60 fps: projectile motion, collisions, pendulum, orbits, the chaotic double pendulum, an ideal gas, EM & sound waves, electric fields, the double slit, quantum wave-packets, particle-in-a-box, tunnelling, special relativity, the Ising model, the Bloch sphere, blackbody radiation, the expanding universe, galaxy rotation curves, radioactive decay, a working laser, and potential flow past a wing.
+- **Two ways to *do* physics**, not just learn it: a *top-down* track on turning principles into inventions, and a *bottom-up* track on how anomalies become discoveries.
 - Search, dark/light themes, keyboard navigation, and locally-saved progress — **no accounts, no tracking, no build step.**
 
 ## How it works
